@@ -1,0 +1,34 @@
+/* Custom Styles for Blackeye-wiki */
+
+/* Set background color for entire page */
+body {
+  background-color: #FBE6C2;
+}
+
+/* Increase font size for headings */
+h1, h2 {
+  font-size: 36px;
+}
+
+/* Add custom border for code blocks */
+pre {
+  border: 1px solid #D1D1D1;
+  padding: 10px;
+}
+
+/* Add custom margin for paragraphs */
+p {
+  margin-bottom: 20px;
+}
+
+/* Add hover effect for links */
+a:hover {
+  color: #E84C3D;
+}
+
+/* Reduce header size on mobile */
+@media(max-width: 768px) {
+  h1, h2 {
+    font-size: 24px;
+  }
+}
